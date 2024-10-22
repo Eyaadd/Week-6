@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg bg-navbar fw-600 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fs-4 text-white" href="#">DevFolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-16px">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white navbar-elem"
+                aria-current="page"
+                href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navbar-elem" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navbar-elem" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navbar-elem" href="#">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navbar-elem" href="#">BLOG</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >DROP DOWN</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navbar-elem" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+
+    <div
+      id="home"
+      class="vh-100 d-flex justify-content-center align-items-center bg-img position-relative"
+    >
+      <div class="overlay"></div>
+      <div class="container z-1 text-center text-white">
+        <h3 class="mb-4 h1 name-header">I am Morgan Freeman</h3>
+        <span class="title"></span>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container mt-5">
+        <div class="card rem-card-radius shadow p-3 mb-5">
+          <div class="card-body">
+            <div class="row ">
+              <div class="col-sm-6">
+                <div class="row mb-4">
+                  <div class="col-lg-5 col-sm-3 ">
+                    <img
+                      src="images/testimonial-2.jpg"
+                      class="rounded w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-7 col-sm-9  ">
+                    <div class="row">
+                        <p><span class="fw-semibold ">Name:</span> <span class=" ">Morgan Freeman</span></p>
+                        <p><span class="fw-semibold">Profile:</span> <span class=" ">full stack developer</span></p>
+                        <p><span class="fw-semibold">Email:</span> <span class=" ">contact@example.com</span></p>
+                        <p><span class="fw-semibold">Phone:</span> <span class=" ">(617) 557-0089</span></p>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="mb-4">Skill</h6>
+                <div class="bar">
+                  <h6 class="card-color fw-400">HTML 85%</h6>
+                  <div
+                    class="progress mb-2 rem-pb-radius"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 0.7rem"
+                  >
+                    <div class="progress-bar" style="width: 85%"></div>
+                  </div>
+
+                  <h6 class="card-color fw-400">CSS3 75%</h6>
+                  <div
+                    class="progress mb-2 rem-pb-radius"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 0.7rem"
+                  >
+                    <div class="progress-bar" style="width: 75%"></div>
+                  </div>
+
+                  <h6 class="card-color fw-400">PHP 50%</h6>
+                  <div
+                    class="progress mb-2 rem-pb-radius"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 0.7rem"
+                  >
+                    <div class="progress-bar" style="width: 50%"></div>
+                  </div>
+
+                  <h6 class="card-color fw-400">JAVASCRIPT 90%</h6>
+                  <div
+                    class="progress mb-2 rem-pb-radius"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 0.7rem"
+                  >
+                    <div class="progress-bar" style="width: 90%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <h2 class="header col-lg-4  fs-lg-3 fs-4">About me</h2>
+                <p class=" fs-20px lead">
+                  Curabitur non nulla sit amet nisl tempus convallis quis ac
+                  lectus. Curabitur arcu erat, accumsan id imperdiet et,
+                  porttitor at sem. Praesent sapien massa, convallis a
+                  pellentesque nec, egestas non nisi. Nulla porttitor accumsan
+                  tincidunt.
+                </p>
+                <p class=" fs-20px lead">
+                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                  Vivamus suscipit tortor eget felis porttitor volutpat.
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. porttitor at sem.
+                </p>
+                <p class=" fs-20px lead">
+                  Nulla porttitor accumsan tincidunt. Quisque velit nisi,
+                  pretium ut lacinia in, elementum id enim. Nulla porttitor
+                  accumsan tincidunt. Mauris blandit aliquet elit, eget
+                  tincidunt nibh pulvinar a.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

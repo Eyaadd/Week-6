@@ -1,0 +1,132 @@
+:root{
+
+
+}
+
+
+.bg-img{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0 , 0 ,0 ,0.6);
+    opacity: 0.9;
+}
+
+
+.name-header{
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+
+.title::after{
+    content: "|";
+    font-size: 2.5rem;
+    font-weight: 600;
+    animation-name: name-change;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
+@keyframes name-change {
+    0%{content: "D|";}
+    3%{content: "De|";}
+    6%{content: "Des|";}
+    9%{content: "Desi|";}
+    12%{content: "Desig|";}
+    15%{content: "Design|";}
+    18%{content: "Designe|";}
+    21%{content: "Designer|";}
+    24%{content: "Designe|";}
+    27%{content: "Design|";}
+    30%{content: "Desig|";}
+    33%{content: "Desi|";}
+    36%{content: "Des|";}
+    39%{content: "De|";}
+    42%{content: "Dev|";}
+    45%{content: "Deve|";}
+    48%{content: "Devel|";}
+    51%{content: "Develo|";}
+    54%{content: "Develop|";}
+    57%{content: "Develope|";}
+    60%{content: "Developer|";}
+    63%{content: "P|";}
+    66%{content: "Ph|";}
+    69%{content: "Pho|";}
+    72%{content: "Phot|";}
+    75%{content: "Photo|";}
+    78%{content: "Photog|";}
+    81%{content: "Photogr|";}
+    84%{content: "Photogra|";}
+    87%{content: "Photograp|";}
+    90%{content: "Photograph|";}
+    93%{content: "Photographe|";}
+    100%{content: "Photographer|";}
+    
+}
+ .card-color{
+    color: #4e4e4e;
+ }
+
+
+.rem-card-radius{
+    --bs-card-border-radius: 0;
+    border-radius: 0!important;
+}
+
+
+.rem-pb-radius{
+    --bs-progress-border-radius: 0;
+
+}
+
+.bg-navbar{
+    background-color:#040404;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
+.fs-16px{
+    font-size: 1rem;
+}
+
+.fs-20px{
+    font-size: 1.25rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-elem::after{
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ;
+}
+
+.navbar-elem:hover.navbar-elem::after{
+    width: 80%;
+}
+
+
+.header::after{
+    content: "";
+    padding-bottom: .625rem;
+    display: block;
+    border-bottom: 3px solid #0078FF;
+    width: 60%;
+}
